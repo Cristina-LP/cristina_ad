@@ -139,7 +139,7 @@ for caracteres in Palabras: #Creamos el bucle para iterar Palabras y almacenar e
     print ((caracteres), ('###Longitud:'), (len(caracteres))) 
 """
 
-
+"""
 #Variable con una frase y decir cuantas a hay en el texto
 miFrase = "Hola estoy programando en Python"
 numA = 0
@@ -151,3 +151,162 @@ for letra in miFrase:
     if letra == letr:
         numA = numA + 1
 print(numA)
+
+"""
+
+
+
+#Programa que lea 4 números por teclado y muestre por pantalla el mayor
+"""
+aux = 0
+
+for i in range(4):
+    numero = int(input("Dime 1 número para comparar:"))
+    if numero >= aux: 
+        aux = numero
+print("El mayor es: ", aux)
+"""
+
+
+"""Empresa que tiene salas de juegos para todas las edades y quiere calcular de forma automática el precio que debe cobrar a sus clientes por entrar. 
+El programa debe preguntar al usuario la edad del cliente y mostrar el precio de la entrada. 
+Si el cliente es menor de 4 años entra gratis. Entre 4 y 18 años paga 5E y si es mayor de 18 paga 10E."""
+"""
+edad = int(input("Edad del usuario:"))
+
+if edad < 4:
+    precio = 0
+elif edad < 18:
+    precio = 5
+else:
+    precio = 10
+print("Precio de la entrada: ", precio)
+"""
+
+#Funciones
+"""
+a = 4
+b = 7
+
+def sumar(x, y):
+    print("La suma es", x + y)
+#sumar(4,7)
+sumar(a,b)
+"""
+
+"""Crear una calculadora. Utilizar funciones: suma, resta, multip., división, exponente y otra que te inventes. 
+Llamarlas por el prog. principal de forma que te pida dos números y te muestre por pantalla todas las operaciones.
+"""
+
+
+"""
+print("Bienvenido a la Calculadora")
+
+def suma(suma1, suma2):
+    print("Suma: ", suma1 + suma2) 
+
+def resta(resta1, resta2):
+    print("Resta: ", resta1 - resta2) 
+
+def multiplicacion(mult1, mult2):
+    print("Multiplicación: ", mult1 * mult2) 
+
+def division(div1, div2):
+    print("División", div1 / div2) 
+
+def exponente(exp1, exp2):
+    print("Exponente: ", exp1 ** exp2) 
+
+
+
+n1 = int(input("Número 1:"))
+n2= int(input("Número 2:"))
+suma(n1, n2)
+resta(n1, n2)
+multiplicacion(n1, n2)
+division(n1, n2)
+exponente(n1, n2)
+"""
+"""
+
+#WHILE
+from zlib import Z_HUFFMAN_ONLY
+
+
+i = 0 
+while(i <= 9):
+    i += 1
+    print("Este while incrementa un contador: ", i)
+    
+    """
+#para poder hacer saltos de línea usamos tres"""   
+
+while true:
+    opcion = (input("""¿Qué quieres de desayuno?
+             1: Churros con chocolate
+             2: Tostada con zumo
+             3: Tortilla de patata
+             4: Pizza fría
+             5. Ayuno intermitente
+             6. Salir"""))
+    
+
+
+"""EJERCICIO CALCULADORA PERO CON MENÚ: Crear una calculadora. Utilizar funciones: suma, resta, multip., división, exponente y otra que te inventes. 
+Llamarlas por el prog. principal de forma que te pida dos números y te muestre por pantalla todas las operaciones.
+"""
+    
+def suma(suma1, suma2):
+    print("Suma: ", suma1 + suma2) 
+
+def resta(resta1, resta2):
+    print("Resta: ", resta1 - resta2) 
+
+def multiplicacion(mult1, mult2):
+    print("Multiplicación: ", mult1 * mult2) 
+
+def division(div1, div2):
+    print("División", div1 / div2) 
+
+def exponente(exp1, exp2):
+    print("Exponente: ", exp1 ** exp2) 
+
+
+def pedirNumeros():
+    n1 = int(input("Número 1:"))
+    n2 = int(input("Número 2:")) 
+    return (n1, n2)
+       
+
+op = 0 
+while True:
+    print("Bienvenido a la Calculadora")
+    op = int(input("""¿Qué quieres calcular?
+                1: Suma
+                2: Resta
+                3: Multiplicación
+                4: División
+                5. Exponente
+                6. Salir"""))
+    
+    print(op)
+    if op == 1:
+        a1, b1 = pedirNumeros()
+        suma(a1, b1)
+    elif op == 2:
+        a1, b1 = pedirNumeros()
+        resta(a1, b1) 
+    elif op == 3:
+        a1, b1 = pedirNumeros()
+        multiplicacion(a1, b1)
+    elif op == 4:
+        a1, b1 = pedirNumeros()
+        division(a1, b1)
+    elif op == 5:
+        a1, b1 = pedirNumeros()
+        exponente(a1, b1)
+    elif op == 6:
+        break
+    else:
+        print("Opción no válida")
+        break
