@@ -190,14 +190,15 @@ b = 7
 
 def sumar(x, y):
     print("La suma es", x + y)
+    
 #sumar(4,7)
 sumar(a,b)
 """
 
+
 """Crear una calculadora. Utilizar funciones: suma, resta, multip., división, exponente y otra que te inventes. 
 Llamarlas por el prog. principal de forma que te pida dos números y te muestre por pantalla todas las operaciones.
 """
-
 
 """
 print("Bienvenido a la Calculadora")
@@ -227,21 +228,22 @@ multiplicacion(n1, n2)
 division(n1, n2)
 exponente(n1, n2)
 """
+
+
 """
 
 #WHILE
-from zlib import Z_HUFFMAN_ONLY
-
 
 i = 0 
 while(i <= 9):
     i += 1
     print("Este while incrementa un contador: ", i)
     
-    """
+"""
+    
 #para poder hacer saltos de línea usamos tres"""   
 
-while true:
+while True:
     opcion = (input("""¿Qué quieres de desayuno?
              1: Churros con chocolate
              2: Tostada con zumo
@@ -250,6 +252,7 @@ while true:
              5. Ayuno intermitente
              6. Salir"""))
     
+
 
 
 """EJERCICIO CALCULADORA PERO CON MENÚ: Crear una calculadora. Utilizar funciones: suma, resta, multip., división, exponente y otra que te inventes. 
