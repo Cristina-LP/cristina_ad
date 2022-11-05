@@ -1,7 +1,7 @@
 """
 Diccionario
 """
-
+'''
 from this import d
 
 
@@ -26,7 +26,7 @@ miDiccionario['nuevoCampo'] = 1000
 print(miDiccionario.get('nooombre', 'NO EXISTE'))
 
 print(miDiccionario)
-
+'''
 
 """
 #rellenar el dicionario por teclado:
@@ -55,27 +55,22 @@ print(miDiccionarioDos)
     Salida: "El coste total es: " (el de toda la compra) y el "coste por marca es:"
 """
 
-diccionarioZapas = {}
-continuar = true
+#solución del profe:
+#FALTARÍA PEDIR EL Nº DE UNIDADES DE CADA MARCA Y MULTIPLICAR POR SU PRECIO
 
+tienda={}
+continuar=True
 while continuar:
-    marca = input("Introduce una ma")
-    
-    
-for marca in range(2):
-    marca = input("Introduce marca: ")
-    precio = input("Introduce precio: ")
-    diccionarioZapas[marca] = precio
-    
-print(diccionarioZapas)
+    marca=input("Introduce una marca: ")
+    precio=float(input("introduce un precio para " + marca + ": "))
+    tienda[marca]=precio
+    continuar=input("¿continuas?:")=="si"
+coste=0
 
-
-for i in diccionarioZapas:
-    
-
-
-
-
+for marca,precio in tienda.items():
+    print(marca,precio)
+    coste+=precio
+print("el precio total es:", coste)
 
 
 

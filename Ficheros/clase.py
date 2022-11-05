@@ -247,7 +247,7 @@ y en base al número leído, busque el fichero llamado: "fichero-tabla-del-n.txt
 Este fichero contendrá la tabla de multiplicar del número n introducido por teclado
 y deberá mostrarse por pantalla un mensaje que avise del problema.
 '''
-'''
+
 nTabla = int(input("Para buscar el archivo de una tabla, introduce un número positivo entre 1 y 10:"))
 nombreFich = "ejercicio2-tabla-del-" + str(nTabla) + ".txt"
 
@@ -255,7 +255,7 @@ try:
     with open (nombreFich, "r") as f:
         print(f.read())
 except FileNotFoundError:
-    print("No existe el fichero")  '''
+    print("No existe el fichero")
     
     
 '''Ejercicio 6:
@@ -263,12 +263,14 @@ Escribir un programa en python que lea un número n por teclado y a partir de es
 lea las n primeras líneas del fichero creado en el ejercicio 2
 '''
 #Opción 1
+'''
 n = int(input("Introduce hasta qué línea deseas leer: "))
 
 with open ("ejercicio2-tabla.txt", "r") as f:
     for i in range(n):
         print(f.readline())
 f.close() 
+'''
 
 #Opción 2
 '''
