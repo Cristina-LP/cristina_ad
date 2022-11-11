@@ -276,7 +276,7 @@ f.close()
 '''
 with open ("ejercicio2-tabla.txt", "r") as f:
     numFilas = int(input("Introduce hasta qué línea deseas leer: "))
-    texto = (linea for i,linea in enumerate(f) if i>=0 and i<=(numFilas-1))
+    texto = (linea for i,linea in enumerate(f) if i>=0 and i<=(numFilas-1)) #enumerate cuenta lineas
     for linea in texto:
         print(linea)
 f.close()       

@@ -1,6 +1,7 @@
 #Cristina López Perera
 #5 ejercicios sobre ficheros del archivo "clase.py" añadiendo excepciones
 
+
 '''Ejercicio 1:
 Escribe un programa que pida por teclado un número positivo entre 1 y 100
 y lo guarde en un fichero llamado "ejercicio1-100.txt"
@@ -118,4 +119,5 @@ try:
     f.close()       
 except FileNotFoundError:
     print("No existe el fichero")
+    
     

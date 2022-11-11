@@ -71,6 +71,3 @@ for marca,precio in tienda.items():
     print(marca,precio)
     coste+=precio
 print("el precio total es:", coste)
-
-
-

@@ -1,6 +1,11 @@
-Este es mi primer programa de fichero y lo he escrito en Python usando la forma recomendada, 
-que es la siguiente: 
-with open() as f 
-f.write() 
-f.close()
-Escribiendo una nueva línea al final
+2x0=0
+2x1=2
+2x2=4
+2x3=6
+2x4=8
+2x5=10
+2x6=12
+2x7=14
+2x8=16
+2x9=18
+2x10=20
