@@ -5,6 +5,7 @@ diccionarioHarry = {
     "Nombre" : "Harry",
 }
 '''
+'''
 #1
 diccionarioHarry = {
     "Nombre" : "Harry",
@@ -13,7 +14,8 @@ diccionarioHarry = {
     "Género" : "Masculino",
     "Padres" : ["James", "Lilli"]
 }
-
+'''
+'''
 #2.Para imprimirlo
 print(diccionarioHarry)
 
@@ -33,6 +35,8 @@ print(diccionarioHarry["Edad"])
 
 #6.Añadir un campo nuevo al final
 diccionarioHarry["Grupo"] = ""
+print(diccionarioHarry)
+
 
 #7.Cambiar el nombre de una clave por otro. Por ejemplo, cambiae la clave grupo por la clave Casa, sin necesidad de utilizar un for
 diccionarioHarry["Casa"] = diccionarioHarry.pop("Grupo")
@@ -58,7 +62,6 @@ print(diccionarioHarry.values())
 
 #13.Crear tuplas
 cosas = ("casa", "puerta", "reloj", "mesa", "silla", "banco", "cuadro", "alfombra")
-
 numeros = (1, 2, 3, 4, 5)
 
 #14.Comó ver el par clave-valor de un diccionario
@@ -86,8 +89,8 @@ print(len(diccionarioHarry["Padres"]))
 
 #18.Split
 text = "Partiendo con Split" #si no digo nada busca espacios en blanco
-#print(text.split())
-
+print(text.split())
+'''
 #19.
 '''Escribe el siguiente texto y partelo:
 Python es un lenguaje de programación que permite tipar pero no permite compilar, ya que es un lenguaje interpretado
@@ -95,11 +98,11 @@ Python es un lenguaje de programación que permite tipar pero no permite compila
 19.b: Cogiendo los espacios en blanco
 19.c: Cogiendo la letra 'e'
 '''
-
+'''
 texto = "Python es un lenguaje de programación que permite tipar pero no permite compilar, ya que es un lenguaje interpretado"
 print(texto.split(","))
 print(texto.split(" "))
-print(texto.split("e"))
+print(texto.split("e"))'''
 
 
 '''20.Crea un programa que a partir del ficchero de texto: "prueba1.txt", el cual contiene exactamente esto:
@@ -125,7 +128,7 @@ Abra el fichero en modo lectura y para cada linea del fichero imprima:
     b:tuplear
     c:tuplear
 '''
-
+#20: lo creo
 nombre_fichero = "prueba1.txt"
 miContenido = "A,1\nB,2\nC,3\nD,4"
 
@@ -133,7 +136,7 @@ with open(nombre_fichero, 'w') as f:
     f.write(miContenido)
 f.close()
 
-
+'''
 #más pistas
 miTupla1 = tuple([1,4,6])
 print(miTupla1)
@@ -144,11 +147,11 @@ print(miTupla2)
 miTupla3 = tuple({4:"one", 6:"two"})
 print(miTupla3)
 print(miTupla3[0])
-
+'''
 
 #CÓMO CREAR UN DICCIONARIO DIRECTAMENTE: dict
-midict2 = dict(nombre="LM", altura=195, ojos="azules")
-print(midict2)
+'''midict2 = dict(nombre="LM", altura=195, ojos="azules")
+print(midict2)'''
 
 
 #20 (en este caso lo hemos leído de la forma clásica)
@@ -156,6 +159,9 @@ file = "prueba1.txt"
 f = open(file, 'r')
 contenido = f.readlines()
 f.close()
+
+print(contenido)
+
 
 #20.a
 line = str()
@@ -176,7 +182,8 @@ C,3
 D,4
 
 Abra el fichero en modo lectura e indique si una letra introducida por teclado está dentro del fichero, y
-de estarlo, qué valor tiene asociado. En caso de no estar la letra introducida, mostrará un mensaje indicando
+de estarlo, qué valor tiene asociado. 
+En caso de no estar la letra introducida, mostrará un mensaje indicando
 "la letra leída:" letra leída "no se encuentra en el fichero".
 '''
 
@@ -188,12 +195,13 @@ contenido= dict([tuple(line.split(","))for line in contenido])
 #Genera un diccionario(dict) con la tupla
 #El diccionario lo guardo en contenido
 
+print(contenido)
+
+
 if letra in contenido:
     print("Para la letra (clave): " + letra + " y su valor es: " + contenido[letra])
 else:
     print("La letra " +  letra + " no está")
-
-
 
 
 

@@ -49,7 +49,7 @@ for i in miDiccionarioDos:
 print(miDiccionarioDos)
 """
 
-"""Crea un diccionario que conteng marcas de zapatillas y su precio. 
+"""Crea un diccionario que contenga marcas de zapatillas y su precio. 
     Deberá pedir el número que queremos y ver cánto cuesta.
     Entrada: nombre/marca zapatilla, precio por unidad y cuántas queremos.
     Salida: "El coste total es: " (el de toda la compra) y el "coste por marca es:"
@@ -62,7 +62,7 @@ tienda={}
 continuar=True
 while continuar:
     marca=input("Introduce una marca: ")
-    precio=float(input("introduce un precio para " + marca + ": "))
+    precio=float(input("Introduce un precio para " + marca + ": "))
     tienda[marca]=precio
     continuar=input("¿continuas?:")=="si"
 coste=0

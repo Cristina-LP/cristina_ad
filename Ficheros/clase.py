@@ -34,11 +34,11 @@ f = open()
 f.write()
 f.close()
 """
-
-#f = open("ficheroenpython.txt", "w")
-#f.write("Este es mi primer programa de fichero y lo he escrito en Python usando la forma clásica, \nque es la siguiente: \nf = open() \nf.write() \nf.close()")
-#f.close()
-
+'''
+f = open("ficheroenpython.txt", "w")
+f.write("Este es mi primer programa de fichero y lo he escrito en Python usando la forma clásica, \nque es la siguiente: \nf = open() \nf.write() \nf.close()")
+f.close()
+'''
 
 """Escribe un programa en Python que escriba de la forma recomendada en un fichero llamado "ficheroenpython.txt" el siguiente mensaje:
 Este es mi primer programa de fichero y lo he escrito en Python usando la forma recomendada,
@@ -88,7 +88,7 @@ f.close()
 
 """Añadir algo al final, sin leer"""
 """
-with open ("ficheroenpython.txt", "a") as f: #Abrimos utilizando Reescribir (r+)
+with open ("ficheroenpython.txt", "a") as f: 
     #Escribimos la nueva línea
     f.write("\nOtra opción")
 f.close()
