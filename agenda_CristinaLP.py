@@ -35,14 +35,14 @@ try:
     if aniadir in "si":
         continuar=True
         while continuar:
-            nombre=input("Introduce el nombre del contacto: ")
-            telf=int(input("Introduce el teléfono de " + nombre + ": "))
-            agenda[nombre] = telf
             with open (nombre_fichero, "a") as f: 
-                f.write(contactos)
+                nombre=input("Introduce el nombre del contacto: ")
+                telf=int(input("Introduce el teléfono de " + nombre + ": "))
+                agenda[nombre] = telf
+                f.write(str(agenda))
             f.close()
             continuar=input("¿continuas?:")=="si"
-        
+
     elif aniadir in "no":
         print("Has seleccionado no añadir contactos")
         
