@@ -5,7 +5,7 @@ diccionarioHarry = {
     "Nombre" : "Harry",
 }
 '''
-'''
+
 #1
 diccionarioHarry = {
     "Nombre" : "Harry",
@@ -14,8 +14,8 @@ diccionarioHarry = {
     "Género" : "Masculino",
     "Padres" : ["James", "Lilli"]
 }
-'''
-'''
+
+
 #2.Para imprimirlo
 print(diccionarioHarry)
 
@@ -90,7 +90,7 @@ print(len(diccionarioHarry["Padres"]))
 #18.Split
 text = "Partiendo con Split" #si no digo nada busca espacios en blanco
 print(text.split())
-'''
+
 #19.
 '''Escribe el siguiente texto y partelo:
 Python es un lenguaje de programación que permite tipar pero no permite compilar, ya que es un lenguaje interpretado

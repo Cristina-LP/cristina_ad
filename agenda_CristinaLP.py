@@ -1,3 +1,5 @@
+#Cristina López Perera. Ejercicio agenda
+
 '''Implementa una aplicación en Python que permita la administración de una agenda de contactos telefónicos.
 Para ello, el programa deberá tener las siguientes funciones:
 - Crear el fichero (vacío) que contenga los nombres y teléfonos de clientes. El fichero se llamará “miagenda.txt”.

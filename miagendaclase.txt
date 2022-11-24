@@ -1,5 +1,0 @@
-lala,34235
-pepe,3454
-3454,3454
-lala,34235
-& C:/ProgramData/Anaconda3/python.exe "c:/Users/Usuario DAM2/Documents/cristina_ad/solucion_agenda.py",& C:/ProgramData/Anaconda3/python.exe "c:/Users/Usuario DAM2/Documents/cristina_ad/solucion_agenda.py"
