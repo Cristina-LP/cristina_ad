@@ -1,0 +1,10 @@
+El cálculo es: 10 y esta es la línea: 1
+El cálculo es: 10 y esta es la línea: 2
+El cálculo es: 10 y esta es la línea: 3
+El cálculo es: 10 y esta es la línea: 4
+El cálculo es: 10 y esta es la línea: 5
+El cálculo es: 10 y esta es la línea: 6
+El cálculo es: 10 y esta es la línea: 7
+El cálculo es: 10 y esta es la línea: 8
+El cálculo es: 10 y esta es la línea: 9
+El cálculo es: 10 y esta es la línea: 10
