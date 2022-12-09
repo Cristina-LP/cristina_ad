@@ -1,0 +1,36 @@
+----------
+El número es: 0
+El número es: 1
+El número es: 2
+El número es: 3
+El número es: 4
+----------
+El número es: 0
+El número es: 1
+El número es: 2
+El número es: 3
+El número es: 4
+El número es: 5
+El número es: 6
+----------
+El número es: 0
+El número es: 1
+El número es: 2
+El número es: 3
+El número es: 4
+El número es: 5
+El número es: 6
+El número es: 7
+El número es: 8
+El número es: 9
+----------
+El número es: 0
+El número es: 1
+El número es: 2
+El número es: 3
+El número es: 4
+El número es: 5
+----------
+El número es: 0
+El número es: 1
+El número es: 2
