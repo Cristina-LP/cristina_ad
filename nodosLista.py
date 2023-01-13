@@ -4,7 +4,7 @@
 -Insertqar nodo le pide num por teclado a usuario. LLama al nodo y se lo da
 -'''
 
-
+#Cristina López Perera
 
 def IntroNumero():
     numeroTeclado = int(input("Introduce un número\n"))
@@ -19,9 +19,22 @@ def CrearLista():
 def InsertarNodo(listaListas):
     
     #listaDos = []
+    contador = -1
+    contador = contador + 1
+    
     listaListas.append(CrearLista())
     print(listaListas)
+
+
+    ultimaLista = listaListas(len(listaListas))(1)
+    
+    for i in listaListas:
+        if((listaListas(i))(1) > ultimaLista):
+            listaListas()
+
     return listaListas
+
+
     '''
     if(listaListas == null):
         listaListas = []
@@ -38,8 +51,7 @@ def InsertarNodo(listaListas):
             listaAnterior.insert(0, numRecibido)
         
             lista.insert(1, numRecibido)
-            lista.insert(1, listaAnterior(0))
-        
+            lista.insert(1, listaAnterior(0))    
        ''' 
        
        
