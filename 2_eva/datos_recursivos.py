@@ -47,14 +47,19 @@ def resta(num1, num2):
     else:
         return resta(num1,num2-1)-1
     
-def mcdnormal(num1, num2):
-    return num1, num2
+def mcdnormal(num1, num2):#consultado en internet
+    comodin = 0
+    while num2 != 0:
+        comodin = b
+        num2 = num1 % num2
+        num1 = comodin
+    return num1
 
-def mcd(num1, num2):
-    if num1%num2 == 0:
-        return 1
-    else:
-        
+
+def mcd(num1, num2):#consultado en internet
+    if num2 == 0:
+        return num1
+    return mcd(num2, num1 % num2)
     
 
 def exponentenormal(num1,num2):
@@ -75,7 +80,7 @@ def menu():
                       1.Factorial de un número
                       2.Multiplicación de dos números mayores de cero
                       3.Resta de dos números
-                      3.MCD de dos números (mayores de cero) 
+                      4.MCD de dos números (mayores de cero) 
                       5.Exponente de dos números (n elevado a m)\n"""))
     return opcionmostrar
 
@@ -113,10 +118,10 @@ def lanzarprograma():
             numuno = int(input("Primer número:"))
             numdos = int(input("Segundo número:"))
             
-            print("Resultado MCD iterativa")
+            print("Resultado MCD iterativo:")
             print(mcdnormal(numuno, numdos))
             
-            print("Resultado MCD iterativa")
+            print("Resultado MCD recursivo")
             print(mcd(numuno, numdos))
 
         elif opcion == 5:
